@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    background-image: url("./bg.png");
+    background-size: 350px;
+    background-position: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-not-found img {
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.page-not-found .error500 {
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.page-not-found {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page-not-found h1 {
+    color: #001529;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    margin: 20px 0px 0px 0px;
+}
+
+.page-not-found p {
+    color: #808080;
+    font-size: 1rem;
+    width: 60%;
+    text-align: center;
+    margin: 5px;
+    font-weight: 300;
+}
+
+.page-not-found p a {
+    color: #022342;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.page-not-found .btn-home {
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    background-color: #001529;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    letter-spacing: 1px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.page-not-found .btn-home a {
+    color: white;
+}
+
+.page-not-found .btn-home:hover {
+    background-color: #002343;
+    transition: all ease 0.2s;
+}
+
+@media (max-width: 900px) {
+    .page-not-found {
+        height: 180px;
+    }
+    .page-not-found p {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .page-not-found {
+        width: 100%;
+    }
+    .page-not-found h1 {
+        text-align: center;
+    }
+    .page-not-found p {
+        width: 90%;
+    }
+    .page-not-found img {
+        height: auto;
+    }
+    .page-not-found .error500 {
+        max-height: 350px;
+        width: 100%;
+    }
+    .page-not-found h1 {
+        font-size: 1.4rem;
+    }
+}

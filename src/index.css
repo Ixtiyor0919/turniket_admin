@@ -1,0 +1,530 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 100%;
+    color: #232323;
+    line-height: 1;
+    background-color: #f8f8f8;
+    -webkit-text-size-adjust: 100%;
+}
+
+header,
+nav,
+main,
+aside,
+section,
+article,
+footer {
+    display: block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    border: none;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+p {
+    font-family: inherit;
+    letter-spacing: inherit;
+}
+
+li {
+    margin-bottom: 0;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #aaa;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #5c5a5a;
+    border-radius: 8px;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+.ant-layout-header {
+    padding: 0 25px !important;
+}
+
+.ant-form-vertical .ant-form-item-label {
+    padding: 0 0 3px;
+}
+
+.ant-form-item {
+    margin-bottom: 7px;
+}
+
+.ant-drawer-body {
+    padding: 0;
+}
+
+.burger-menu {
+    display: none;
+}
+
+.add-button {
+    margin-bottom: 15px;
+}
+
+.select-add {
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ant-space-align-center.profil-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px !important;
+}
+
+.example {
+    margin-bottom: 20px;
+    padding: 30px 50px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.space-dashboard {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-content
+    > table
+    > thead
+    > tr
+    > th,
+.ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-header
+    > table
+    > thead
+    > tr
+    > th,
+.ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-body
+    > table
+    > thead
+    > tr
+    > th,
+.ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-summary
+    > table
+    > thead
+    > tr
+    > th,
+.ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-content
+    > table
+    > tbody
+    > tr
+    > td,
+.ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-header
+    > table
+    > tbody
+    > tr
+    > td,
+.ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-body
+    > table
+    > tbody
+    > tr
+    > td,
+.ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-summary
+    > table
+    > tbody
+    > tr
+    > td,
+.ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-content
+    > table
+    > tfoot
+    > tr
+    > th,
+.ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-header
+    > table
+    > tfoot
+    > tr
+    > th,
+.ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-body
+    > table
+    > tfoot
+    > tr
+    > th,
+.ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-summary
+    > table
+    > tfoot
+    > tr
+    > th,
+.ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-content
+    > table
+    > tfoot
+    > tr
+    > td,
+.ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-header
+    > table
+    > tfoot
+    > tr
+    > td,
+.ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-body
+    > table
+    > tfoot
+    > tr
+    > td,
+.ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-summary
+    > table
+    > tfoot
+    > tr
+    > td {
+    text-align: center;
+    padding: 10px;
+}
+
+.ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-content
+    > table
+    > thead
+    > tr
+    > th {
+    font-weight: 600;
+}
+
+tr:hover,
+thead:hover {
+    background: rgb(203, 227, 247) !important;
+}
+
+.ant-menu-dark.ant-menu-horizontal > .ant-menu-item,
+.ant-menu-dark.ant-menu-horizontal > .ant-menu-submenu {
+    padding: 0 10px;
+}
+
+.ant-table-tbody > tr.ant-table-row:hover > td {
+    background: none !important;
+}
+
+.ant-table-tbody > tr.ant-table-row-selected > td {
+    background: #e6f7ff;
+    border-color: rgba(0, 0, 0, 0.03);
+}
+
+.notification {
+    display: none;
+}
+
+.MuiCardHeader-root {
+    padding: 15px !important;
+}
+
+.MuiCardHeader-action {
+    display: flex;
+    align-items: center;
+    height: 20px !important;
+}
+
+.grid-container {
+    display: flex !important;
+}
+
+.MuiPaper-root {
+    border-radius: 15px !important;
+    padding-top: auto !important;
+}
+
+.css-1oqqzyl-MuiContainer-root {
+    max-width: 1440px !important;
+}
+
+.grid2 {
+    height: 400px !important;
+}
+
+.grid::before {
+    content: icon;
+}
+
+.css-1qx0kfu-MuiPaper-root-MuiCard-root {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 15px !important;
+    padding-bottom: 10px !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(30, 136, 229) !important;
+}
+
+.css-mufikw {
+    color: aliceblue !important;
+    margin-bottom: unset !important;
+    background-image: linear-gradient(
+        135deg,
+        rgb(229 229 229 / 78%) 0%,
+        rgb(26 28 30 / 0%) 100%
+    ) !important;
+}
+
+.currency {
+    margin-bottom: 20px !important;
+}
+
+.css-9ne04j-MuiGrid-root,
+.css-bhp9pd-MuiPaper-root-MuiCard-root {
+    height: 64vh !important;
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+    padding: 8px 14px !important;
+}
+
+@media screen and (max-width: 1440px) {
+    .container {
+        width: 1020px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .container {
+        width: 768px;
+        padding: 0;
+    }
+
+    .space-dashboard {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .css-1vb7w3r {
+        margin-top: 20px !important;
+    }
+
+    .grid-container {
+        flex-direction: column !important;
+        gap: unset !important;
+    }
+
+    .css-18r7b5m-MuiGrid-root {
+        margin-bottom: 40px !important;
+    }
+
+    .css-9ne04j-MuiGrid-root,
+    .css-bhp9pd-MuiPaper-root-MuiCard-root {
+        height: unset !important;
+    }
+
+    .grid1 {
+        width: 100% !important;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .logo-navbar {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .css-19bxa36-MuiGrid-root {
+        max-width: 50% !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .ant-layout-header {
+        flex-direction: row-reverse !important;
+    }
+
+    .grid-container {
+        flex-direction: column !important;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 5px;
+        flex-direction: row-reverse !important;
+    }
+
+    .logo {
+        margin-right: unset !important;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .notification {
+        display: block;
+        margin-left: auto;
+    }
+
+    .inline-navber {
+        display: none !important;
+    }
+
+    .site-layout .container {
+        justify-content: space-between;
+    }
+
+    .buttons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .ant-space-align-center {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0 !important;
+    }
+
+    .new-buttons {
+        gap: 10px !important;
+    }
+
+    .tazalash {
+        gap: 16px !important;
+    }
+
+    .add-button {
+        margin-bottom: 8px;
+    }
+
+    .select-add {
+        margin-bottom: 8px;
+    }
+
+    .ant-card-body {
+        padding: 5px;
+    }
+
+    .ant-statistic-content {
+        font-size: 16px !important;
+    }
+
+    .ant-table-tbody > tr > td {
+        padding: 10px 5px;
+    }
+
+    .ant-statistic-title {
+        font-size: 13px !important;
+    }
+
+    .statistic .ant-col-8 {
+        padding: 0 1px !important;
+    }
+
+    .statistic .ant-col-12 {
+        padding: 0 1px !important;
+    }
+
+    .ant-table-pagination-right {
+        justify-content: center;
+    }
+
+    .space-dashboard {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 24px !important;
+    }
+}
